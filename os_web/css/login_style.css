@@ -1,0 +1,82 @@
+/* CSS Document */
+
+#loginContent{width:900px;height:300px;background:none; margin-bottom:5px;}
+
+#box{height:2px;width:400px; background:none; margin:0px auto 0;}
+#tab_nav{margin:0; padding:0; height:25px; line-height:24px;}
+#tab_nav li{
+float:left; 
+margin:0 10px; 
+list-style:none; 
+border:0px;  
+height:25px; 
+width:60px;
+text-align:center; 
+background:#666666;}
+#tab_nav a{color:#999999; text-decoration:none;}
+a:hover{color:#999999; text-decoration:none;}
+
+#tab_content{width:399px; height:200px; border:1px solid #999; font:"Œ¢»Ì—≈∫⁄", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#cccccc; overflow:hidden;}
+#login,#register{width:100%; height:273px;}
+.little_box{ width:310px; height:200px;  margin:0 auto;  }
+.table{color:#666666;
+margin:0 auto;
+height:80px;
+width:310px;
+}
+/* ‘≤Ω« ‰»ÎøÚ */
+.input{width:150px;
+height:20px;
+border-color:#CCCCCC;
+border-style:none;
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;}
+/* ‘≤Ω«∞¥≈• */
+.button{
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	padding: 40 20px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px/25px Arial, sans-serif;
+
+	text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+
+	-webkit-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-ms-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+	
+	color: #19667d;
+
+	background: #70c9e3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #70c9e3 0%, #39a0be 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#70c9e3), color-stop(100%,#39a0be)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* IE10+ */
+	background: linear-gradient(top,  #70c9e3 0%,#39a0be 100%); /* W3C */
+
+}
+
+.tips{
+display:block;
+color:#FF0000;
+}
+.notips{
+display:none;
+}
+
+
+
