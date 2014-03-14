@@ -1,6 +1,6 @@
-<?
+<?php
 session_start();
 session_unset();   
 session_destroy();
-echo"<script>location.href='../html/login.html';</script>";
+echo "<script type='text/javascript'>location.href='../html/login.php';</script>";
 ?>
